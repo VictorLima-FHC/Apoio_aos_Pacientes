@@ -73,9 +73,9 @@ body {
   max-width: 450px;
   font-size: 16px;
   line-height: 1;
+  font-family: 'Inter', sans-serif;
   opacity: 0.9;
   font-weight: 200;
-  font-family: 'LexiaRegular', sans-serif;
 }
 
 

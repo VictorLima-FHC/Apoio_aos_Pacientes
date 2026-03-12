@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'LexiaBold';
+  src: url('../assets/fonts/Lexia-W01-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'LexiaSemiBold';
+  src: url('../assets/fonts/Lexia-W01-Light.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'LexiaXBold';
+  src: url('../assets/fonts/Lexia-W01-XBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LexiaRegular';
+  src: url('../assets/fonts/Lexia-W01-Regular.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CALIST';
+  src: url('../assets/fonts/CALIST.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+

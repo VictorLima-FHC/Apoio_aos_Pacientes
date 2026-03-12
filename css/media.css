@@ -1,0 +1,225 @@
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 38px;
+  }
+
+  .paciente-grid,
+  .programas-grid,
+  .associacoes-grid,
+  .edital-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .paciente-image,
+  .associacoes-image {
+    order: -1;
+  }
+
+  .programas-cards {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .hero-background {
+    height: auto;
+    min-height: 420px;
+    padding: 60px 0;
+    background-image: url('../assets/bg_mobile.jpg');
+
+    align-items: end;
+  }
+
+  .hero-content {
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .hero-title {
+    max-width: 100%;
+  }
+
+  .hero-description {
+    max-width: 100%;
+    line-height: 1.4;
+    width: 300px;
+  }
+
+  .info-container,
+  .paciente-container,
+  .programas-container,
+  .associacoes-container,
+  .parceiros-container,
+  .depoimentos-container,
+  .iniciativas-container,
+  .tabs-container,
+  .edital-container,
+  .parceria-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .edital-section {
+    padding: 40px 0;
+  }
+
+  .edital-texto h2 {
+    font-size: 22px;
+  }
+
+  .btn-edital {
+    padding: 15px 40px;
+    gap: 10px;
+    justify-content: none;
+    font-size: 16px;
+  }
+
+  .paciente-section,
+  .programas-section,
+  .associacoes-section,
+  .focus-section {
+    padding: 20px 0;
+  }
+
+  .info-astrazeneca {
+    padding: 20px 0;
+  }
+
+  .paciente-titel-mobile {
+    display: flex;
+    font-size: 22px;
+  }
+
+  .paciente-text h2 {
+    display: none;
+  }
+
+  .paciente-text h3 {
+    font-size: 18px;
+  }
+
+  .programas-text h2 {
+    font-size: 22px;
+  }
+
+  .parceiros-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .associacoes-header h2 {
+    font-size: 22px;
+  }
+
+  .parceiros-header h2 {
+    font-size: 22px;
+  }
+
+  .focus-title {
+    font-size: 22px;
+  }
+
+  .parceiro-card {
+    padding: 10px 5px;
+  }
+
+  .card-content h4,
+  .card-content li {
+    font-size: 12px;
+  }
+
+  .accordion-content p {
+    font-size: 12px;
+  }
+
+  .accordion {
+    padding: 0px 30px;
+  }
+
+  .parceiro-card img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .tabs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tabs-menu {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    gap: 10px;
+    -webkit-overflow-scrolling: n0je;
+  }
+
+
+  .tabs-menu::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .tab-btn {
+    white-space: nowrap;
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+
+  .tab-btn::before {
+    height: 20px;
+  }
+
+  .focus-card {
+    min-width: 280px;
+  }
+
+  .focus-section-container {
+    padding-left: 20px;
+  }
+
+  .iniciativas-card {
+    flex-direction: column;
+    padding: 30px 20px;
+    align-items: center;
+  }
+
+  .iniciativas-texto h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .iniciativas-texto h2 br {
+    display: none;
+  }
+
+  .grafico-circular img {
+    max-width: 300px;
+
+  }
+
+  .accordion-header {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .programa-card {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .programa-btn {
+    width: 80%;
+    padding: 14px 20px;
+  }
+
+  .parceria-container p {
+    font-size: 20px;
+  }
+}

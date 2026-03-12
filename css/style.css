@@ -55,7 +55,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 25px;
   font-family: 'LexiaRegular', sans-serif;
 
   color: #ffffff;
@@ -791,9 +791,9 @@ body {
 
 .edital-grid {
   display: grid;
-  grid-template-columns: .7fr 600px;
+  grid-template-columns: .74fr 400px;
   align-items: center;
-  gap: 60px;
+  gap: 10%;
 }
 
 .edital-texto h2 {

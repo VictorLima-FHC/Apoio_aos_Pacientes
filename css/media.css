@@ -137,6 +137,7 @@
   .card-content h4,
   .card-content li {
     font-size: 11px;
+    margin-bottom: 2px;
   }
 
   .accordion-content p {
